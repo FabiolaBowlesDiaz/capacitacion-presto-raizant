@@ -79,6 +79,7 @@ nav:
   - Inicio: index.md
   - Rol Presupuestos:
       - presupuestos/index.md
+      - 🗺 La pantalla de Presto (dónde clic): presupuestos/interfaz.md
       - 0 · Fundamentos de Presto: presupuestos/0-fundamentos.md
       - 1 · Presupuesto básico: presupuestos/1-basico.md
       - 2 · Presupuesto intermedio: presupuestos/2-intermedio.md

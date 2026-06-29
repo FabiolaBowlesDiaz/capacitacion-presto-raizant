@@ -7,6 +7,9 @@
 
 Está ordenado de lo más básico a lo más avanzado. Si nunca tocaste Presto, seguilo en orden. Si ya sabés lo básico, saltá a lo que necesites.
 
+!!! tip "¿Te perdés entre tantos menús y botones? Empezá por acá"
+    Antes que nada, mirá **[🗺 La pantalla de Presto: dónde está cada cosa](interfaz.md)**. Es el mapa de la interfaz con cada zona numerada y explicada — para que cuando una tarea diga "andá a tal botón", sepas exactamente dónde está. Es lo que más baja la curva al principio.
+
 <div class="grid cards" markdown>
 
 -   **0 · Fundamentos de Presto**
