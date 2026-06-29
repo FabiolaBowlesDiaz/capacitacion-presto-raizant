@@ -41,14 +41,6 @@ Está ordenado de lo más básico a lo más avanzado. Si nunca tocaste Presto, s
 
     [:octicons-arrow-right-24: Ver](3-avanzado.md)
 
--   **4 · Equivalencias Syneco → Presto**
-
-    ---
-
-    Lo que hacías así en Syneco, en Presto se hace así. La traducción desde lo que ya conocés.
-
-    [:octicons-arrow-right-24: Ver](4-equivalencias-syneco.md)
-
 -   **5 · Reglas de oro y fallas silenciosas**
 
     ---
