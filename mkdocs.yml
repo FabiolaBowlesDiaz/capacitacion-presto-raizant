@@ -1,0 +1,90 @@
+site_name: Capacitación Presto · Raizant
+site_description: Manual de capacitación de Presto por rol — migración Syneco → Presto
+site_author: raisa (copiloto Raizant)
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: es
+  palette:
+    # Modo claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    # Modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant      # navegación sin recargar (SPA)
+    - navigation.tracking     # la URL sigue al scroll
+    - navigation.tabs         # roles como pestañas superiores
+    - navigation.sections     # secciones expandidas en el sidebar
+    - navigation.top          # botón "volver arriba"
+    - navigation.footer       # anterior/siguiente al pie
+    - search.suggest          # sugerencias del buscador
+    - search.highlight        # resalta el término buscado
+    - search.share            # compartir búsqueda
+    - content.code.copy       # botón copiar en bloques de código
+    - toc.follow              # el índice sigue el scroll
+  icon:
+    repo: material/folder-table
+
+plugins:
+  - search:
+      lang: es
+  - glightbox:                # zoom en las capturas de pantalla
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      width: 100%
+      height: auto
+
+markdown_extensions:
+  - admonition                # cajas de Nota / Advertencia / Pitfall
+  - pymdownx.details          # cajas plegables
+  - pymdownx.superfences      # bloques de código anidados / diagramas
+  - pymdownx.tabbed:          # contenido en pestañas
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.keys             # teclas: ++ctrl+b++
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list                 # atributos en links/imágenes
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+      title: En esta página
+
+extra:
+  generator: false            # quita "Made with Material for MkDocs"
+
+nav:
+  - Inicio: index.md
+  - Rol Presupuestos:
+      - presupuestos/index.md
+      - 0 · Fundamentos de Presto: presupuestos/0-fundamentos.md
+      - 1 · Presupuesto básico: presupuestos/1-basico.md
+      - 2 · Presupuesto intermedio: presupuestos/2-intermedio.md
+      - 3 · Presupuesto avanzado: presupuestos/3-avanzado.md
+      - 4 · Equivalencias Syneco→Presto: presupuestos/4-equivalencias-syneco.md
+      - 5 · Reglas de oro y fallas silenciosas: presupuestos/5-reglas-de-oro.md
+      - 6 · Preguntas frecuentes y glosario: presupuestos/6-faq-glosario.md
+      - 7 · Ejercicios en BLEND: presupuestos/7-ejercicios-blend.md
+  - Cómo usar / mantener este sitio: contribuir.md
