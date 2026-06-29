@@ -55,7 +55,7 @@
 
 ---
 
-!!! note "Estado"
-    🚧 Los ejercicios se afinan y se prueban con el equipo en el issue **DRI-196**. Cada uno se valida con al menos una persona antes de darlo por cerrado.
+!!! note "Estos ejercicios se afinan con el equipo"
+    Cada ejercicio se valida con al menos una persona del equipo durante la adopción (issue **DRI-196**), y se van agregando casos según las dudas reales que surjan.
 
 📖 **Fuente:** apuntes C02/C03/C04 + acceso a la obra de práctica BLEND.
