@@ -30,8 +30,7 @@ theme:
   features:
     - navigation.instant      # navegación sin recargar (SPA)
     - navigation.tracking     # la URL sigue al scroll
-    - navigation.tabs         # roles como pestañas superiores
-    - navigation.sections     # secciones expandidas en el sidebar
+    - navigation.expand       # todo el menú desplegado en la barra izquierda
     - navigation.top          # botón "volver arriba"
     - navigation.footer       # anterior/siguiente al pie
     - search.suggest          # sugerencias del buscador
@@ -84,7 +83,7 @@ nav:
       - 1 · Presupuesto básico: presupuestos/1-basico.md
       - 2 · Presupuesto intermedio: presupuestos/2-intermedio.md
       - 3 · Presupuesto avanzado: presupuestos/3-avanzado.md
-      - 5 · Reglas de oro y fallas silenciosas: presupuestos/5-reglas-de-oro.md
-      - 6 · Preguntas frecuentes y glosario: presupuestos/6-faq-glosario.md
-      - 7 · Ejercicios en BLEND: presupuestos/7-ejercicios-blend.md
+      - 4 · Reglas de oro y fallas silenciosas: presupuestos/5-reglas-de-oro.md
+      - 5 · Preguntas frecuentes y glosario: presupuestos/6-faq-glosario.md
+      - 6 · Ejercicios en BLEND: presupuestos/7-ejercicios-blend.md
   - Cómo usar / mantener este sitio: contribuir.md
