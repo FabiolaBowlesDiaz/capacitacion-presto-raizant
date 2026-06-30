@@ -161,7 +161,18 @@
 
 **Qué es:** la "receta" de una partida — descomponerla en sus materiales, mano de obra y maquinaria, con cuánto lleva de cada uno y a qué precio.
 
-**Paso a paso** `[01:40]`–`[02:00]`:
+**Así se ve un APU ya armado** (la partida "Muro de ladrillo" abierta, con su receta adentro):
+
+![APU de una partida en Presto: la partida arriba y sus materiales + mano de obra debajo](../assets/presto-apu-anotado.png){ .on-glb }
+
+| # | Qué es |
+|---|---|
+| **1** | **La partida** (la fila gris de arriba): "Muro de ladrillo", 90 M2 a 76,94 c/u. Su precio (76,94) está en **magenta** = lo calcula Presto desde la receta de abajo. |
+| **2** | **Un material** de la receta: Cemento, 10 kg a 1,40. Fijate que la cantidad es **chica** (lo que lleva 1 m² de muro) y tiene **unidad real** (Kg). El íconito rojo en la columna NatC = material. |
+| **3** | **La mano de obra**: el íconito de **casco amarillo** la distingue de los materiales. |
+| **4** | Las columnas de la receta: **CanPres** (cuánto lleva), **Ud** (unidad), **Pres** (precio unitario) e **ImpPres** (importe = cantidad × precio, se calcula solo). |
+
+**Paso a paso para armar uno** `[01:40]`–`[02:00]`:
 
 1. En la **franja de abajo** (la tabla), hacé **doble clic** sobre la fila de la partida que querés desglosar (ej. _Hormigón de vigas y pilares_). Entrás "adentro" de la partida; queda vacía, lista para su receta.
 2. Escribí el primer recurso: en la columna **`Código`** poné su código y apretá **Tab** para pasar a **`Resumen`** y ponerle el nombre (ej. cemento, arena, peón). _Si configuraste el truco de la Tarea 5, Presto le pinta la naturaleza solo según la inicial del código._
