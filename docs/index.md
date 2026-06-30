@@ -40,17 +40,21 @@ Este es el **piloto**, arranca con un rol completo y luego se extiende a los dem
 
     Modelo Revit → Cost-It → Presto.
 
--   :material-cart: **Compras** _(próximamente)_
+-   :material-cart: **Compras** _(disponible)_
 
     ---
 
-    Contratación, órdenes de compra, proveedores.
+    Órdenes de compra, cotización entre proveedores, adjudicación, y del pedido al costo real en obra.
 
--   :material-truck-delivery: **Obra y Almacén** _(próximamente)_
+    [:octicons-arrow-right-24: Entrar](compras/index.md)
+
+-   :material-truck-delivery: **Obra y Almacén** _(disponible)_
 
     ---
 
-    Recepción, entregas, imputación del consumo real.
+    Recepción de material, entregas/albaranes, imputación del consumo real a la partida y material del almacén central.
+
+    [:octicons-arrow-right-24: Entrar](obra-almacen/index.md)
 
 -   :material-chart-line: **Control de obra** _(próximamente)_
 

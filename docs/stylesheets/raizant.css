@@ -1,0 +1,33 @@
+/* ==========================================================================
+   Paleta corporativa Raizant — lila #AC1AAB
+   Sobrescribe los colores del tema Material for MkDocs.
+   ========================================================================== */
+
+:root {
+  /* Color primario (cabecera, barra de navegación, títulos de acento) */
+  --md-primary-fg-color:        #AC1AAB;
+  --md-primary-fg-color--light: #C44FC3;
+  --md-primary-fg-color--dark:  #8A1389;
+  --md-primary-bg-color:        #ffffff;
+  --md-primary-bg-color--light: #ffffffb3;
+
+  /* Color de acento (enlaces, hover, foco, controles) */
+  --md-accent-fg-color:         #C724C5;
+  --md-accent-fg-color--transparent: #C724C51a;
+  --md-accent-bg-color:         #ffffff;
+  --md-accent-bg-color--light:  #ffffffb3;
+}
+
+/* Modo oscuro (slate): aclaramos el lila para que contraste sobre fondo oscuro */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #C44FC3;
+  --md-primary-fg-color--light: #D98AD8;
+  --md-primary-fg-color--dark:  #AC1AAB;
+  --md-accent-fg-color:         #D98AD8;
+  --md-typeset-a-color:         #D98AD8;
+}
+
+/* Enlaces en modo claro al lila corporativo */
+[data-md-color-scheme="default"] {
+  --md-typeset-a-color:         #AC1AAB;
+}

@@ -11,16 +11,16 @@ theme:
     # Modo claro
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
-      accent: teal
+      primary: purple
+      accent: purple
       toggle:
         icon: material/weather-night
         name: Cambiar a modo oscuro
     # Modo oscuro
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal
-      accent: teal
+      primary: purple
+      accent: purple
       toggle:
         icon: material/weather-sunny
         name: Cambiar a modo claro
@@ -74,6 +74,9 @@ markdown_extensions:
 extra:
   generator: false            # quita "Made with Material for MkDocs"
 
+extra_css:
+  - stylesheets/raizant.css   # paleta corporativa lila #AC1AAB
+
 nav:
   - Inicio: index.md
   - Rol Presupuestos:
@@ -87,5 +90,35 @@ nav:
       - 5 · Preguntas frecuentes y glosario: presupuestos/6-faq-glosario.md
       - 6 · Ejercicios en BLEND: presupuestos/7-ejercicios-blend.md
   - Rol Compras:
+      - compras/index.md
+      - 🗺 La pantalla de Compras (dónde clic): compras/interfaz.md
+      - 0 · Fundamentos de Compras: compras/0-fundamentos.md
       - 1 · Pedido manual (Orden de Compra): compras/1-pedido-manual.md
+      - "2 · Contratos: cotizar y adjudicar": compras/2-contratos-cotizar.md
+      - 3 · Del pedido a la obra: compras/3-del-pedido-a-la-obra.md
+      - 4 · Reglas de oro y fallas silenciosas: compras/4-reglas-de-oro.md
+      - 5 · Preguntas frecuentes y glosario: compras/5-faq-glosario.md
+      - 6 · Ejercicios en BLEND: compras/6-ejercicios-blend.md
+  - Rol Obra / Almacén:
+      - obra-almacen/index.md
+      - 🗺 La pantalla de Obra/Almacén (dónde clic): obra-almacen/interfaz.md
+      - 0 · Fundamentos · entrega, costo real y bodega: obra-almacen/0-fundamentos.md
+      - 1 · Recibir material (la Entrega / albarán): obra-almacen/1-recepcion-entrega.md
+      - 2 · Imputar el consumo a la partida: obra-almacen/2-imputar-consumo.md
+      - 3 · Material del almacén central y sobrantes: obra-almacen/3-almacen-y-sobrantes.md
+      - 4 · Del pedido a la factura: obra-almacen/4-del-pedido-a-la-factura.md
+      - 5 · Reglas de oro y fallas silenciosas: obra-almacen/5-reglas-de-oro.md
+      - 6 · Preguntas frecuentes y glosario: obra-almacen/6-faq-glosario.md
+      - 7 · Ejercicios en BLEND: obra-almacen/7-ejercicios-blend.md
+  - Rol Control de obra:
+      - control-obra/index.md
+      - 🗺 La pantalla de Control de obra (dónde clic): control-obra/interfaz.md
+      - 0 · Fundamentos del control de obra: control-obra/0-fundamentos.md
+      - 1 · Armar la línea temporal (las fases): control-obra/1-linea-temporal.md
+      - 2 · Certificar el avance: control-obra/2-certificar-avance.md
+      - 3 · Adicionales y estados de pago: control-obra/3-adicionales-y-estados-de-pago.md
+      - 4 · El EVM · leer la salud de la obra: control-obra/4-evm-salud-de-obra.md
+      - 5 · Reglas de oro y fallas silenciosas: control-obra/5-reglas-de-oro.md
+      - 6 · Preguntas frecuentes y glosario: control-obra/6-faq-glosario.md
+      - 7 · Ejercicios en BLEND: control-obra/7-ejercicios-blend.md
   - Cómo usar / mantener este sitio: contribuir.md
