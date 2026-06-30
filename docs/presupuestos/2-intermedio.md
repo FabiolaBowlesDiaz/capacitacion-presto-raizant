@@ -75,7 +75,12 @@
 **Paso a paso** `[01:30]`:
 
 1. Dentro del capítulo que corresponde, creá la partida con **naturaleza `Partida`** (en la columna `NatC`).
-2. Hacé **clic derecho sobre esa partida** y, en el menú, activá la propiedad **`Suministro`**. Su ícono se pone **naranja 🟧** — esa es la señal de que quedó marcada como subcontrato.
+2. Hacé **clic derecho sobre esa partida** y, en el menú, activá la propiedad **`Suministro`** (el número **1** de la imagen). Su ícono se pone **naranja 🟧** — esa es la señal de que quedó marcada como subcontrato.
+
+    ![Menú de clic derecho con la propiedad Suministro señalada](../assets/presto-suministro-anotada.png){ .on-glb }
+
+    _El recuadro de ayuda lo confirma: "el concepto se compra o subcontrata y puede aparecer en contratos, pedidos, entregas y facturas"._
+
 3. Cargala simple: **cantidad `1`**, **unidad `global`**, y en `Pres` el **precio cerrado** que te pasó el subcontratista. **No le pongas receta adentro.**
 
 !!! warning "No confundas con el ícono 'Subcontratista'"

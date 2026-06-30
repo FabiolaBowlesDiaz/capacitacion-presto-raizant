@@ -77,6 +77,16 @@
 
 **Dónde estás:** en la pestaña de ventana **`Presupuesto`** (la fila de pestañas del medio: Obras · **Presupuesto** · Árbol · Conceptos). La tabla grande de abajo es donde escribís.
 
+**Así se ve la estructura ya armada** (el capítulo "Obra gruesa" con sus subcapítulos adentro):
+
+![Capítulo Obra Gruesa con sus subcapítulos en Presto](../assets/presto-subcapitulos-anotada.png){ .on-glb }
+
+| # | Qué es |
+|---|---|
+| **1** | **El capítulo** (fila gris, "04 OBRA GRUESA"): es el contenedor. Su cantidad es siempre **1** y su precio (4.432.357) es la **suma de todo lo que tiene adentro**. |
+| **2** | **Un subcapítulo** ("04.01 Muros y divisiones"): cuelga del capítulo. También suma lo que tiene adentro. |
+| **3** | La columna **`Pres`**: fijate que los precios están en **magenta** = calculados (suman desde abajo). Los que están en negro o vacíos (04.06, 04.07) todavía no tienen contenido. |
+
 **Paso a paso** `[00:40]`:
 
 1. En la **franja de abajo** (la tabla), hacé clic en la primera celda de la columna **`Código`** (la de más a la izquierda). Escribí el código del primer capítulo.
@@ -103,7 +113,10 @@
 **Paso a paso** `[00:50]`–`[01:00]`:
 
 1. Abrí tu Excel y mirá en qué orden están las columnas (ej.: Código · Unidad · Descripción · Cantidad).
-2. En Presto, en la **franja de abajo** (la tabla), hacé **clic derecho sobre cualquier título de columna** (la fila gris de arriba). En el menú que aparece, elegí **`Elegir columnas visibles`**.
+2. En Presto, en la **franja de abajo** (la tabla), hacé **clic derecho sobre cualquier título de columna** (la fila gris de arriba). En el menú que aparece, elegí **`Elegir columnas visibles`** (el número **1** de la imagen):
+
+    ![Menú de clic derecho con la opción Elegir columnas visibles señalada](../assets/presto-columnas-visibles-anotada.png){ .on-glb }
+
 3. Se abre una ventana con dos listas. Con los botones **`Subir`/`Bajar`** ordená las columnas de Presto para que **queden igual que tu Excel**: `Código` · `Ud` · `Resumen` · `CanPres`. Dale `Aceptar`.
 4. Volvé al Excel, seleccioná tus datos y copiá (**Ctrl+C**). Volvé a Presto y pegá: en la **cinta de arriba**, pestaña `Inicio`, grupo **Editar**, botón **`Pegar`** (o directamente **Ctrl+V**).
 5. Ahora anidá los subcapítulos y partidas con **`Disminuir nivel`** (como en la Tarea 3).
@@ -209,6 +222,15 @@
 **Qué es:** en vez de escribir una cantidad "a dedo", desglosarla en sus parciales (por ejes, por losas, por sectores) para que quede respaldada.
 
 **Dónde:** la subventana **`Mediciones`**, que aparece **abajo de la tabla** cuando la prendés.
+
+**Así se ve el panel de Mediciones abierto** (abajo de la tabla del presupuesto):
+
+![Panel de Mediciones abierto debajo de la tabla en Presto](../assets/presto-mediciones-anotada.png){ .on-glb }
+
+| # | Qué es |
+|---|---|
+| **1** | El **título del panel** te dice de qué partida son estas mediciones (acá: 04.01.01). |
+| **2** | La columna **`Comentario`**: ahí describís cada parcial. Más a la derecha está **`Cantidad`**, donde va el número de cada uno. |
 
 **Paso a paso** `[03:20]`:
 

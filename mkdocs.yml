@@ -86,4 +86,6 @@ nav:
       - 4 · Reglas de oro y fallas silenciosas: presupuestos/5-reglas-de-oro.md
       - 5 · Preguntas frecuentes y glosario: presupuestos/6-faq-glosario.md
       - 6 · Ejercicios en BLEND: presupuestos/7-ejercicios-blend.md
+  - Rol Compras:
+      - 1 · Pedido manual (Orden de Compra): compras/1-pedido-manual.md
   - Cómo usar / mantener este sitio: contribuir.md
