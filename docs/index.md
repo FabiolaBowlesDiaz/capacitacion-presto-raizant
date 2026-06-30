@@ -34,11 +34,13 @@ Este es el **piloto**, arranca con un rol completo y luego se extiende a los dem
 
     [:octicons-arrow-right-24: Entrar](presupuestos/index.md)
 
--   :material-cube-outline: **Arquitectura** _(próximamente)_
+-   :material-cube-outline: **Arquitectura** _(disponible)_
 
     ---
 
-    Modelo Revit → Cost-It → Presto.
+    Modelo Revit → Cost-It → Presto. Traspasar las cantidades del modelo al presupuesto y mantenerlas sincronizadas.
+
+    [:octicons-arrow-right-24: Entrar](arquitectura/index.md)
 
 -   :material-cart: **Compras** _(disponible)_
 
@@ -56,11 +58,13 @@ Este es el **piloto**, arranca con un rol completo y luego se extiende a los dem
 
     [:octicons-arrow-right-24: Entrar](obra-almacen/index.md)
 
--   :material-chart-line: **Control de obra** _(próximamente)_
+-   :material-chart-line: **Control de obra** _(disponible)_
 
     ---
 
     Certificación, avance, valor ganado (EVM).
+
+    [:octicons-arrow-right-24: Entrar](control-obra/index.md)
 
 -   :material-bank: **Contabilidad** _(próximamente)_
 

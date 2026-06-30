@@ -79,6 +79,11 @@ extra_css:
 
 nav:
   - Inicio: index.md
+  - El flujo (gobierno de datos):
+      - flujo/index.md
+      - Los 2 ciclos · cómo viaja el dato: flujo/los-dos-ciclos.md
+      - El ciclo de vida del dato: flujo/ciclo-de-vida-del-dato.md
+      - Las 3 reglas de oro: flujo/reglas-de-oro.md
   - Rol Presupuestos:
       - presupuestos/index.md
       - 🗺 La pantalla de Presto (dónde clic): presupuestos/interfaz.md
@@ -91,6 +96,7 @@ nav:
       - 6 · Ejercicios en BLEND: presupuestos/7-ejercicios-blend.md
   - Rol Compras:
       - compras/index.md
+      - 🧭 Tu lugar en el flujo: compras/tu-lugar-en-el-flujo.md
       - 🗺 La pantalla de Compras (dónde clic): compras/interfaz.md
       - 0 · Fundamentos de Compras: compras/0-fundamentos.md
       - 1 · Pedido manual (Orden de Compra): compras/1-pedido-manual.md
@@ -121,4 +127,16 @@ nav:
       - 5 · Reglas de oro y fallas silenciosas: control-obra/5-reglas-de-oro.md
       - 6 · Preguntas frecuentes y glosario: control-obra/6-faq-glosario.md
       - 7 · Ejercicios en BLEND: control-obra/7-ejercicios-blend.md
+  - Rol Arquitectura (Cost-It):
+      - arquitectura/index.md
+      - 🗺 La pantalla de Arquitectura (dónde clic): arquitectura/interfaz.md
+      - 0 · Fundamentos de Cost-It: arquitectura/0-fundamentos.md
+      - 1 · Traer el modelo a Presto: arquitectura/1-traspaso-inicial.md
+      - 2 · Leer y verificar el resultado: arquitectura/2-leer-y-verificar.md
+      - 3 · Afinar y desglosar: arquitectura/3-afinar-y-desglosar.md
+      - 4 · Codificar el modelo y volcar al presupuesto: arquitectura/4-codificar-y-volcar.md
+      - 5 · Re-sincronizar cuando el modelo cambia: arquitectura/5-resincronizar.md
+      - 6 · Reglas de oro y fallas silenciosas: arquitectura/6-reglas-de-oro.md
+      - 7 · Preguntas frecuentes y glosario: arquitectura/7-faq-glosario.md
+      - 8 · Ejercicios en BLEND: arquitectura/8-ejercicios-blend.md
   - Cómo usar / mantener este sitio: contribuir.md
