@@ -34,6 +34,14 @@ Este es el **piloto**, arranca con un rol completo y luego se extiende a los dem
 
     [:octicons-arrow-right-24: Entrar](presupuestos/index.md)
 
+-   :material-chart-gantt: **Planificación** _(disponible)_
+
+    ---
+
+    El cronograma dentro de Presto: diagrama de barras, duraciones, enlaces, objetivo de coste y curva S.
+
+    [:octicons-arrow-right-24: Entrar](planificacion/index.md)
+
 -   :material-cube-outline: **Arquitectura** _(disponible)_
 
     ---

@@ -100,6 +100,11 @@ nav:
       - 4 · Reglas de oro y fallas silenciosas: presupuestos/5-reglas-de-oro.md
       - 5 · Preguntas frecuentes y glosario: presupuestos/6-faq-glosario.md
       - 6 · Ejercicios en BLEND: presupuestos/7-ejercicios-blend.md
+      - 7 · Diseñar informes (plantillas propias): presupuestos/8-disenar-informes.md
+  - Planificación (cronograma):
+      - planificacion/index.md
+      - 1 · Armar el cronograma (diagrama de barras): planificacion/1-armar-el-cronograma.md
+      - 2 · Objetivo de coste y curva S: planificacion/2-objetivo-de-coste-y-curva-s.md
   - Rol Compras:
       - compras/index.md
       - 🧭 Tu lugar en el flujo: compras/tu-lugar-en-el-flujo.md
@@ -122,6 +127,7 @@ nav:
       - 5 · Reglas de oro y fallas silenciosas: obra-almacen/5-reglas-de-oro.md
       - 6 · Preguntas frecuentes y glosario: obra-almacen/6-faq-glosario.md
       - 7 · Ejercicios en BLEND: obra-almacen/7-ejercicios-blend.md
+      - 8 · Cierres, saldos y la factura del proveedor: obra-almacen/8-cierres-saldos-y-factura.md
   - Rol Control de obra:
       - control-obra/index.md
       - 🗺 La pantalla de Control de obra (dónde clic): control-obra/interfaz.md
@@ -133,6 +139,7 @@ nav:
       - 5 · Reglas de oro y fallas silenciosas: control-obra/5-reglas-de-oro.md
       - 6 · Preguntas frecuentes y glosario: control-obra/6-faq-glosario.md
       - 7 · Ejercicios en BLEND: control-obra/7-ejercicios-blend.md
+      - 8 · El presupuesto en marcha: control-obra/8-presupuesto-en-marcha.md
   - Rol Arquitectura (Cost-It):
       - arquitectura/index.md
       - 🗺 La pantalla de Arquitectura (dónde clic): arquitectura/interfaz.md
@@ -145,4 +152,5 @@ nav:
       - 6 · Reglas de oro y fallas silenciosas: arquitectura/6-reglas-de-oro.md
       - 7 · Preguntas frecuentes y glosario: arquitectura/7-faq-glosario.md
       - 8 · Ejercicios en BLEND: arquitectura/8-ejercicios-blend.md
+      - 9 · Preparar el modelo (avanzado): arquitectura/9-preparar-el-modelo.md
   - Cómo usar / mantener este sitio: contribuir.md
