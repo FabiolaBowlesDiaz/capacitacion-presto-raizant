@@ -35,7 +35,6 @@ theme:
   features:
     - navigation.instant      # navegación sin recargar (SPA)
     - navigation.tracking     # la URL sigue al scroll
-    - navigation.expand       # todo el menú desplegado en la barra izquierda
     - navigation.top          # botón "volver arriba"
     - navigation.footer       # anterior/siguiente al pie
     - search.suggest          # sugerencias del buscador
