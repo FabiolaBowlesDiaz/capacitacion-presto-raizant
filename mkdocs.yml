@@ -1,11 +1,16 @@
 site_name: Capacitación Presto · Raizant
 site_description: Manual de capacitación de Presto por rol — migración Syneco → Presto
 site_author: raisa (copiloto Raizant)
+site_url: https://fabiolabowlesdiaz.github.io/capacitacion-presto-raizant/
+repo_url: https://github.com/FabiolaBowlesDiaz/capacitacion-presto-raizant
+repo_name: capacitacion-presto-raizant
+edit_uri: edit/main/docs/
 docs_dir: docs
 site_dir: site
 
 theme:
   name: material
+  custom_dir: overrides
   language: es
   palette:
     # Modo claro
@@ -37,6 +42,7 @@ theme:
     - search.highlight        # resalta el término buscado
     - search.share            # compartir búsqueda
     - content.code.copy       # botón copiar en bloques de código
+    - content.action.edit     # lápiz "editar esta página" → GitHub
     - toc.follow              # el índice sigue el scroll
   icon:
     repo: material/folder-table
